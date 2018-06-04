@@ -1,0 +1,46 @@
+body {
+	width:100%; 
+	text-align:center; 
+	padding:50px 0; 
+	margin:0 auto;
+	background-image:url("images/oddsonbackground.jpg"); 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p {
+	font-size:80px;
+	color:#A63D40;
+	-webkit-text-stroke: 1.2px white;
+	font-family:Comic sans MS;
+	padding: 10px 20px;
+    margin: 0px auto 20px auto;
+}
+
+.buttonting {
+	width:100%; 
+	clear:both; 
+	text-align:middle; 
+	margin:0 auto; 
+	padding-top:20px;
+}
+
+img {
+	height:300px;
+}
+
+button {
+	padding:20px 30px;
+}
+
+@media screen and (max-width: 480px) {
+    img {
+        margin: 10px auto;
+		width:95%;
+		height:auto; 
+    }
+}
